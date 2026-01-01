@@ -24,9 +24,10 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Execute Tests
-      if: always()
+     
       run: mvn clean test -DSuite=Suite -X
     - name: Upload a Build Artifact
+      if: always()
       uses: actions/upload-artifact@v6.0.0
       with:
        name: Logs
