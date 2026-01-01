@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="API Test suite">
+  <test thread-count="5" name="API Test">
+    <classes>
+      <class name="com.api.test.LoginAPITest3">
+        
+      </class>
+    </classes>
+  </test> 
+</suite>
